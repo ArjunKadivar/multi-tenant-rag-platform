@@ -1,0 +1,36 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# LangChain + integrations
+langchain==0.3.1
+langchain-core==0.3.6
+langchain-openai==0.2.0
+langchain-anthropic==0.2.1
+langchain-experimental==0.3.0
+langchain-huggingface==0.1.0
+
+# Vector stores
+qdrant-client==1.11.2
+chromadb==0.5.5
+
+# Embeddings / rerank
+sentence-transformers==3.1.1
+
+# DB
+sqlalchemy[asyncio]==2.0.35
+asyncpg==0.29.0
+aiosqlite==0.20.0
+
+# Cache / queue
+redis==5.0.8
+celery==5.4.0
+
+# Files
+pypdf==5.0.1
+
+# Observability
+prometheus-client==0.20.0
+
+python-multipart==0.0.9
