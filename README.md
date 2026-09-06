@@ -1,1 +1,0 @@
-# model-serving-monitoring-platform
